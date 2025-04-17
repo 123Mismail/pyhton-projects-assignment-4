@@ -1,0 +1,19 @@
+version = 1
+revision = 1
+requires-python = ">=3.13"
+
+[manifest]
+members = [
+    "01-print-events",
+    "02-international-voting-age",
+]
+
+[[package]]
+name = "01-print-events"
+version = "0.1.0"
+source = { virtual = "." }
+
+[[package]]
+name = "02-international-voting-age"
+version = "0.1.0"
+source = { virtual = "02_international_voting_age" }
