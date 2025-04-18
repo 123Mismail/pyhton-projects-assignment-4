@@ -1,10 +1,7 @@
 [project]
-name = "04-dictionary"
+name = "01-phonebook"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
-
-[tool.uv.workspace]
-members = ["00_count_nums", "01_phonebook"]
